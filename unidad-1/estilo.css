@@ -1,0 +1,22 @@
+p, li, h1 { /* selector elemento (html) */
+    color: rgb(255, 0, 0);
+    width: 500px;
+    border: 1px solid black;
+}
+#elementos { /*selector de identidad */
+    font-family: 'Slabo 27px', serif;
+    background-color: aqua;
+}
+.sin-borde { /*selector de clase */
+color: orange;
+background-color: blueviolet;
+border: 0px;
+}
+#elementos:hover { /*selector de pseudo-clase */
+    background-color: brown;
+    color: black;
+
+}
+label [for] {
+    color: blue;
+}
